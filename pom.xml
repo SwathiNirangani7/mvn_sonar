@@ -76,6 +76,15 @@
   <build>
 	  
   <plugins>
+	  <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-war-plugin</artifactId>
+        <version>3.3.1</version>
+        <configuration>
+            <warSourceDirectory>WebContent</warSourceDirectory>
+            <webXml>WebContent\WEB-INF\web.xml</webXml>
+        </configuration>
+    </plugin>
           <plugin>
               <groupId>org.owasp</groupId>
               <artifactId>dependency-check-maven</artifactId>
@@ -96,7 +105,7 @@
               <!-- Am I the latest version? -->  
               <versionCheckEnabled>true</versionCheckEnabled>  
              </configuration>  
-            </plugin>
+	  </plugin>
            <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-pmd-plugin</artifactId>
