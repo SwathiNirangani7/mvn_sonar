@@ -51,19 +51,17 @@
   </dependencies>
   
   <distributionManagement>
-    <repository>
-      <id>terraframe-releases</id>
-      <name>terraframe-releases</name>
-      <url>http://terraframe.com:8081/nexus/content/repositories/releases/</url>
-      <layout>default</layout>
-    </repository>
     <snapshotRepository>
-      <id>terraframe-snapshots</id>
-      <name>terraframe-snapshots</name>
-      <url>http://terraframe.com:8081/nexus/content/repositories/snapshots/</url>
-      <layout>default</layout>
+       <id>nexus</id>
+      <!-- <url>http://http://35.200.148.224:8081/nexus/content/repositories/snapshots</url> -->
+           <url>http://35.200.148.224:8081/repository/maven-snapshots</url> 
     </snapshotRepository>
-	</distributionManagement>
+    <repository>
+      <id>nexus</id>
+        <!--<url>http://35.200.148.224:8081/repository/maven-snapshots/</url> -->
+	     <url>http://35.200.148.224:8081/repository/maven-releases/</url> 
+    </repository>
+  </distributionManagement>
   <build>
 	  
   <plugins>
