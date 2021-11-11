@@ -66,13 +66,13 @@
     <repository>
       <id>terraframe-releases</id>
       <name>terraframe-releases</name>
-      <url>http://terraframe.com:8081/nexus/content/repositories/releases/</url>
+      <url>http://35.200.148.224:8081/nexus/content/repositories/releases/</url>
       <layout>default</layout>
     </repository>
     <snapshotRepository>
       <id>terraframe-snapshots</id>
       <name>terraframe-snapshots</name>
-      <url>http://terraframe.com:8081/nexus/content/repositories/snapshots/</url>
+      <url>http://35.200.148.224:8081/nexus/content/repositories/snapshots/</url>
       <layout>default</layout>
     </snapshotRepository>
 	</distributionManagement>
