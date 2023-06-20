@@ -64,11 +64,11 @@
     <snapshotRepository> 
        <id>maven-snapshots</id> 
       <!-- <url>http://35.200.148.224:8081/nexus/content/repositories/snapshots</url> --> 
-           <url>http://3.27.106.34:8081/repository/maven-snapshots/</url> 
+           <url>http://13.239.122.159:8081/repository/maven-snapshots/</url> 
     </snapshotRepository> 
     <repository> 
       <id>maven-releases</id>
-      <url>http://3.27.106.34:8081/repository/maven-releases/</url>
+      <url>http://13.239.122.159:8081/repository/maven-releases/</url>
     </repository>
   </distributionManagement>
   
@@ -126,9 +126,9 @@
                 <version>1.2.1-0</version>
                 <configuration>
                     <!-- If ZAP is running on localhost, there is no need to define zapHost -->
-                    <zapHost>https://3.27.106.34</zapHost>
+                    <zapHost>http://13.239.122.159</zapHost>
                     <zapPort>8080</zapPort>
-                    <targetUrl>http://3.27.106.34:8098/rest/demo</targetUrl>
+                    <targetUrl>http://13.239.122.159:8098/rest/demo</targetUrl>
                 </configuration>
             </plugin>
 	  <plugin>
