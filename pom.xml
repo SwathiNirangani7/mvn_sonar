@@ -185,11 +185,6 @@
                 <artifactId>maven-pmd-plugin</artifactId>
                 <version>3.14.0</version>
             </plugin>
-	    <plugin>
-	        <groupId>org.owasp</groupId>
-        	<artifactId>dependency-check-maven</artifactId>
-		<version>6.4.1</version>
-	    </plugin>
             <!-- Spotbugs report -->
             <plugin>
                 <groupId>com.github.spotbugs</groupId>
